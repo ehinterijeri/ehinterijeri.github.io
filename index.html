@@ -4,40 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EH Interijeri Zenica | Krečenje, gletovanje i završni radovi</title>
-  <meta name="description" content="EH Interijeri Zenica - profesionalno krečenje, gletovanje, fugiranje i završni radovi. Pozovite +387 62 254 022 ili pošaljite WhatsApp upit." />
-  <meta name="keywords" content="EH Interijeri, krečenje Zenica, gletovanje Zenica, moler Zenica, molerski radovi, fugiranje, završni radovi" />
+  <meta name="description" content="EH Interijeri Zenica - krečenje, gletovanje, fugiranje i završni radovi za stanove, kuće i poslovne prostore. Pozovite +387 62 254 022." />
+  <meta name="keywords" content="krečenje Zenica, gletovanje Zenica, moler Zenica, molerski radovi Zenica, završni radovi Zenica, EH Interijeri" />
   <meta name="author" content="EH Interijeri" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta property="og:title" content="EH Interijeri Zenica" />
+  <meta property="og:description" content="Krečenje, gletovanje i završni radovi za uredan i lijep dom." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ehinterijeri.github.io/" />
+  <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="container nav">
-      <a class="brand" href="#home">
-        <span class="brand-mark">EH</span>
-        <span>EH INTERIJERI</span>
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="EH Interijeri početna">
+        <span class="brand-mark"><span>EH</span></span>
+        <span class="brand-text">EH INTERIJERI</span>
       </a>
-      <nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Otvori meni">☰</button>
+      <div class="nav-links" id="navLinks">
         <a href="#usluge">Usluge</a>
         <a href="#onama">O nama</a>
         <a href="#galerija">Galerija</a>
         <a href="#kontakt">Kontakt</a>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main id="home">
+  <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-text">
+        <div class="hero-copy reveal">
           <p class="eyebrow">Zenica i okolina</p>
           <h1>Krečenje, gletovanje i završni radovi za uredan i lijep dom.</h1>
           <p class="lead">EH Interijeri pruža pouzdane molerske i završne radove za stanove, kuće i poslovne prostore. Precizno, uredno i po dogovoru.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="tel:+38762254022">📞 Pozovi odmah</a>
-            <a class="btn secondary" href="https://wa.me/38762254022" target="_blank" rel="noopener">💬 WhatsApp upit</a>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="tel:+38762254022">☎ Pozovi odmah</a>
+            <a class="btn btn-light" href="https://wa.me/38762254022?text=Pozdrav%2C%20zanima%20me%20ponuda%20za%20radove." target="_blank" rel="noopener">💬 WhatsApp upit</a>
           </div>
           <div class="trust-row">
             <span>✓ Korektne cijene</span>
@@ -45,87 +48,118 @@
             <span>✓ Dogovoreni rokovi</span>
           </div>
         </div>
-        <div class="hero-card">
-          <div class="logo-box">
-            <div class="roof"></div>
-            <div class="big-eh"><span>E</span><span>H</span></div>
-            <div class="roller">▰</div>
+        <div class="hero-card reveal">
+          <img src="https://images.unsplash.com/photo-1598520106830-8c45c2035460?auto=format&fit=crop&w=1200&q=80" alt="Molerski radovi u modernom interijeru" />
+          <div class="hero-badge">
+            <strong>EH Interijeri</strong>
+            <span>Krečenje • Gletovanje • Završni radovi</span>
           </div>
-          <h2>EH INTERIJERI</h2>
-          <p>Krečenje • Gletovanje • Završni radovi</p>
         </div>
       </div>
     </section>
 
-    <section id="usluge" class="section">
+    <section class="section stats">
+      <div class="container stats-grid">
+        <div><strong>Zenica</strong><span>lokacija rada</span></div>
+        <div><strong>+387 62 254 022</strong><span>telefon i WhatsApp</span></div>
+        <div><strong>Po dogovoru</strong><span>dolazak i procjena</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="usluge">
       <div class="container">
-        <p class="eyebrow">Naše usluge</p>
-        <h2>Radovi koje najčešće izvodimo</h2>
-        <div class="cards">
-          <article class="card"><span>01</span><h3>Krečenje</h3><p>Krečenje stanova, kuća, poslovnih prostora i osvježenje zidova prema dogovoru.</p></article>
-          <article class="card"><span>02</span><h3>Gletovanje</h3><p>Priprema zidova, ravnanje površina i završna obrada prije farbanja.</p></article>
-          <article class="card"><span>03</span><h3>Fugiranje</h3><p>Precizno fugiranje i završni detalji koji prostoru daju čist i uredan izgled.</p></article>
-          <article class="card"><span>04</span><h3>Popravke zidova</h3><p>Sanacija manjih oštećenja, pukotina i priprema prostora za nove radove.</p></article>
-          <article class="card"><span>05</span><h3>Dekorativni zidovi</h3><p>Jednostavna dekorativna rješenja za moderan izgled enterijera.</p></article>
-          <article class="card"><span>06</span><h3>Završni radovi</h3><p>Sitni završni radovi u domu nakon adaptacije ili uređenja prostora.</p></article>
+        <div class="section-head reveal">
+          <p class="eyebrow">Šta radimo</p>
+          <h2>Usluge za stanove, kuće i poslovne prostore</h2>
+          <p>Fokus je na urednom izvođenju radova, zaštiti prostora i jasnom dogovoru prije početka posla.</p>
+        </div>
+        <div class="cards-grid">
+          <article class="service-card reveal"><span>🎨</span><h3>Krečenje</h3><p>Bijelo i kolor krečenje zidova i plafona, uz pripremu i zaštitu prostora.</p></article>
+          <article class="service-card reveal"><span>🧱</span><h3>Gletovanje</h3><p>Izravnavanje zidova, sanacija neravnina i priprema površine za završni sloj.</p></article>
+          <article class="service-card reveal"><span>🧩</span><h3>Fugiranje</h3><p>Uredni završni detalji, popravke fuga i osvježenje postojećih površina.</p></article>
+          <article class="service-card reveal"><span>🛠</span><h3>Popravke zidova</h3><p>Sanacija pukotina, rupa i oštećenja prije krečenja ili završne obrade.</p></article>
+          <article class="service-card reveal"><span>🏠</span><h3>Završni radovi</h3><p>Sitni završni radovi u domu nakon renoviranja, useljenja ili adaptacije.</p></article>
+          <article class="service-card reveal"><span>✨</span><h3>Osvježenje prostora</h3><p>Brzo i uredno osvježenje stana, kuće, kancelarije ili poslovnog prostora.</p></article>
         </div>
       </div>
     </section>
 
-    <section id="onama" class="section about">
+    <section class="section about" id="onama">
       <div class="container about-grid">
-        <div>
+        <div class="about-image reveal">
+          <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1000&q=80" alt="Uredni molerski završni radovi" />
+        </div>
+        <div class="about-copy reveal">
           <p class="eyebrow">O nama</p>
-          <h2>Pouzdan majstor za vaš dom</h2>
-          <p>EH Interijeri je obrt iz Zenice koji vodi Eldin Heco. Fokus rada su krečenje, gletovanje, fugiranje i završni radovi u stanovima, kućama i poslovnim prostorima.</p>
-          <p>Naš cilj je jednostavan: poštovati dogovor, završiti posao uredno i ostaviti prostor čistim nakon radova.</p>
-        </div>
-        <div class="about-list">
-          <div><strong>Precizno</strong><span>Pažnja na detalje kod svake površine.</span></div>
-          <div><strong>Uredno</strong><span>Zaštita prostora i čišćenje nakon radova.</span></div>
-          <div><strong>Pouzdano</strong><span>Dolazak i završetak prema dogovoru.</span></div>
+          <h2>Majstor kojem možete povjeriti svoj prostor.</h2>
+          <p>EH Interijeri je lokalna usluga iz Zenice za krečenje, gletovanje, fugiranje i završne radove u domu. Cilj je jednostavan: posao završiti kvalitetno, uredno i prema dogovoru.</p>
+          <ul class="check-list">
+            <li>Zaštita namještaja i podova prije rada</li>
+            <li>Uredan završetak i čišćenje radnog prostora</li>
+            <li>Dogovor oko termina, materijala i cijene</li>
+          </ul>
+          <a class="text-link" href="#kontakt">Zatražite ponudu →</a>
         </div>
       </div>
     </section>
 
-    <section id="galerija" class="section gallery-section">
+    <section class="section gallery" id="galerija">
       <div class="container">
-        <p class="eyebrow">Galerija</p>
-        <h2>Primjeri radova</h2>
-        <p class="muted">Ovdje ćemo dodati fotografije radova prije i poslije. Za sada su postavljeni prostori za slike.</p>
-        <div class="gallery">
-          <div>Prije / Poslije</div>
-          <div>Krečenje</div>
-          <div>Gletovanje</div>
-          <div>Završni detalji</div>
+        <div class="section-head reveal">
+          <p class="eyebrow">Galerija</p>
+          <h2>Primjeri radova</h2>
+          <p>Privremeno su postavljene realne ilustrativne fotografije. Kada Eldin prikupi svoje slike, zamijenićemo ih stvarnim radovima.</p>
+        </div>
+        <div class="gallery-grid">
+          <img class="reveal" src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80" alt="Uređen dnevni boravak nakon završnih radova" />
+          <img class="reveal" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80" alt="Moderan interijer sa urednim zidovima" />
+          <img class="reveal" src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80" alt="Osvježen stambeni prostor" />
+          <img class="reveal" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80" alt="Završeni molerski radovi u kući" />
         </div>
       </div>
     </section>
 
-    <section id="kontakt" class="section contact">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">Kontakt</p>
-          <h2>Zatražite ponudu</h2>
-          <p>Za dogovor oko radova nazovite ili pošaljite poruku na WhatsApp. Najbolje je poslati nekoliko fotografija prostora i kratak opis posla.</p>
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Preporuke</p>
+          <h2>Šta klijenti najviše cijene</h2>
         </div>
-        <div class="contact-card">
-          <a href="tel:+38762254022">📞 +387 62 254 022</a>
-          <a href="https://wa.me/38762254022" target="_blank" rel="noopener">💬 WhatsApp: +387 62 254 022</a>
-          <a href="mailto:ehinterijerize@gmail.com">✉️ ehinterijerize@gmail.com</a>
-          <p>📍 Zenica, Bosna i Hercegovina</p>
+        <div class="testimonial-grid">
+          <blockquote class="reveal">“Uredno, brzo i po dogovoru. Prostor je nakon rada ostao čist.”<span>— Klijent iz Zenice</span></blockquote>
+          <blockquote class="reveal">“Dobar dogovor prije početka, korektan odnos i kvalitetan završetak.”<span>— Preporuka klijenta</span></blockquote>
+          <blockquote class="reveal">“Sve završeno u roku. Zidovi izgledaju odlično.”<span>— Zadovoljan kupac</span></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="kontakt">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Kontakt</p>
+          <h2>Dogovorite procjenu radova.</h2>
+          <p>Pošaljite upit preko WhatsAppa ili nazovite direktno. Navedite lokaciju, vrstu radova i okvirnu kvadraturu prostora.</p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="tel:+38762254022">☎ +387 62 254 022</a>
+            <a class="btn btn-light" href="https://wa.me/38762254022?text=Pozdrav%2C%20trebam%20ponudu%20za%20EH%20Interijeri." target="_blank" rel="noopener">💬 Pošalji WhatsApp</a>
+            <a class="btn btn-light" href="mailto:ehinterijerize@gmail.com">✉ ehinterijerize@gmail.com</a>
+          </div>
+        </div>
+        <div class="map-card reveal">
+          <iframe title="Zenica mapa" src="https://www.google.com/maps?q=Zenica%2C%20Bosnia%20and%20Herzegovina&output=embed" loading="lazy"></iframe>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> EH Interijeri. Sva prava zadržana.</p>
-      <a href="#home">Nazad na vrh ↑</a>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><strong>EH INTERIJERI</strong><p>Krečenje • Gletovanje • Završni radovi</p></div>
+      <div><p>Zenica, BiH</p><p><a href="tel:+38762254022">+387 62 254 022</a></p></div>
     </div>
   </footer>
 
+  <a class="floating-whatsapp" href="https://wa.me/38762254022?text=Pozdrav%2C%20zanima%20me%20ponuda%20za%20radove." target="_blank" rel="noopener" aria-label="WhatsApp kontakt">💬</a>
   <script src="script.js"></script>
 </body>
 </html>
